@@ -54,7 +54,7 @@ const cities = [
         name: "Marine Drive",
         location: "South Mumbai, near Churchgate",
         history: "A 3.6 km boulevard built in the 1920s, famous for sunset views and sea breeze.",
-        img: "https://plus.unsplash.com/premium_photo-1697729588485-6c238cf3ab2f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+        img: "https://plus.unsplash.com/premium_photo-1697729588485-6c238cf3ab2f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=117",
         prices: { food: "₹500/day", activities: "₹100", transport: "₹200" }
       },
       {
@@ -170,5 +170,3 @@ function openCityPage(cityName) {
 
 
 displayCities(cities);
-
-
