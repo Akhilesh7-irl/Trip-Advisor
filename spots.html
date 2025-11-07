@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourist Spots</title>
+  <link rel="stylesheet" href="spots.css">
+</head>
+<body>
+  <header>
+    <h1>Trip Advisor</h1>
+  </header>
+
+  <div class="main-container">
+    <div class="search-container">
+      <input type="text" id="spotSearch" class="input" placeholder="Search tourist spots...">
+      <button class="btn" onclick="searchSpot()">Search</button>
+    </div>
+
+    <div id="spotsContainer" class="spots-grid">
+      <!-- Spots will be dynamically added by spots.js -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="spots.js"></script>
+</body>
+</html>
