@@ -1,14 +1,14 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f9fafc;
+  background-color: rgb(249, 250, 252);
   margin: 0;
   padding: 0;
-  color: #222;
+  color: rgb(34, 34, 34);
 }
 
 header {
   width: 100%;
-  background: linear-gradient(135deg, #d90429, #ef233c);
+  background: linear-gradient(135deg, rgb(217, 4, 41), rgb(239, 35, 60));
   color: white;
   text-align: center;
   padding: 25px 0;
@@ -36,7 +36,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 50px;
   padding: 10px 20px;
   box-shadow: 0 4px 20px rgba(217, 4, 41, 0.2);
@@ -54,7 +54,7 @@ header h1 {
 }
 
 .btn {
-  background-color: #d90429;
+  background-color: rgb(217, 4, 41);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -65,7 +65,7 @@ header h1 {
 }
 
 .btn:hover {
-  background-color: #b71c1c;
+  background-color: rgb(183, 28, 28);
 }
 
 .spots-grid {
@@ -75,7 +75,7 @@ header h1 {
 }
 
 .spot-card {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -97,13 +97,12 @@ header h1 {
 
 .spot-card h2 {
   margin: 15px 0 10px 0;
-  color: #333;
+  color: rgb(51, 51, 51);
   font-size: 22px;
 }
 
 .spot-card p {
   margin: 5px 15px 15px 15px;
-  color: #555;
+  color: rgb(85, 85, 85);
   font-size: 15px;
 }
-
